@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2600e73-f2f1-428a-ae1f-38c97f83820f" name="Changes" comment="" />
+    <list default="true" id="e2600e73-f2f1-428a-ae1f-38c97f83820f" name="Changes" comment="feat: heroes">
+      <change beforePath="$PROJECT_DIR$/src/programs/GeneratePresetImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/programs/GeneratePresetImplTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.GeneratePresetImplTest.executor": "Run",
     "JUnit.GeneratePresetImplTest.testGeneratePreset.executor": "Run",
     "JUnit.GeneratePresetImplTest.testGeneratePresetWithInsufficientPoints.executor": "Run",
     "JUnit.SuitableForAttackUnitsFinderImplTest.executor": "Run",
@@ -75,7 +78,22 @@
       <recent name="C:\Users\Delamart\Documents\GitHub\heroes_student_task\src\programs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UnitTargetPathFinderImplTest">
+  <component name="RunManager" selected="JUnit.GeneratePresetImplTest">
+    <configuration name="GeneratePresetImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="heerooees" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="programs" />
+      <option name="MAIN_CLASS_NAME" value="programs.GeneratePresetImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnitTargetPathFinderImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="heerooees" />
       <extension name="coverage">
@@ -123,22 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTargetPathFinderImplTest.testGetTargetPath_samePosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="heerooees" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="programs" />
-      <option name="MAIN_CLASS_NAME" value="programs.UnitTargetPathFinderImplTest" />
-      <option name="METHOD_NAME" value="testGetTargetPath_samePosition" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UnitTargetPathFinderImplTest.testGetTargetPath_withObstacles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="heerooees" />
       <extension name="coverage">
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GeneratePresetImplTest" />
         <item itemvalue="JUnit.UnitTargetPathFinderImplTest" />
         <item itemvalue="JUnit.UnitTargetPathFinderImplTest.testGetTargetPath_noObstacles" />
         <item itemvalue="JUnit.UnitTargetPathFinderImplTest.testGetTargetPath_withObstacles" />
         <item itemvalue="JUnit.UnitTargetPathFinderImplTest.testGetTargetPath_noPath" />
-        <item itemvalue="JUnit.UnitTargetPathFinderImplTest.testGetTargetPath_samePosition" />
       </list>
     </recent_temporary>
   </component>
@@ -183,11 +185,24 @@
       <updated>1728832732344</updated>
       <workItem from="1728832733355" duration="3827000" />
       <workItem from="1735077656092" duration="34942000" />
-      <workItem from="1735332252936" duration="3581000" />
+      <workItem from="1735332252936" duration="4065000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: heroes">
+      <option name="closed" value="true" />
+      <created>1735409667750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735409667750</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: heroes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: heroes" />
   </component>
 </project>
